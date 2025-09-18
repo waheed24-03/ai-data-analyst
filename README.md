@@ -100,3 +100,5 @@ conda activate analyst_env
 
 # Install dependencies
 pip install -r requirements.txt
+```
+
