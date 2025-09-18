@@ -64,13 +64,13 @@ This is **not a toy demo** — it’s a **feature-rich prototype approaching pro
 ### 5️⃣ Graph
 ![Graph](images/image5.png)
 
-### 7️⃣ Profiling Report
+### 6️⃣ Profiling Report
 ![Profile Report](images/image7.png)
 
-### 8️⃣ Report
+### 7️⃣ Report
 ![Report](images/image8.png)
 
-### 9️⃣ Summary
+### 8️⃣ Summary
 ![Summary](images/image9.png)
 
 ---
