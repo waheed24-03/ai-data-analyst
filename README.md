@@ -47,7 +47,7 @@ This is **not a toy demo** — it’s a **feature-rich prototype approaching pro
 
 ---
 
-## 🖼️ Walkthrough (Screenshots)
+## 🖼️ Walkthrough
 
 ### 1️⃣ Upload Dataset
 ![Upload](images/image1.png)
@@ -91,15 +91,15 @@ This is **not a toy demo** — it’s a **feature-rich prototype approaching pro
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/ai-data-analyst-agent.git
-cd ai-data-analyst-agent
-
+-git clone https://github.com/your-username/ai-data-analyst-agent.git
+-cd ai-data-analyst-agent
 # Create environment
-conda create -n analyst_env python=3.10 -y
-conda activate analyst_env
-
+-conda create -n analyst_env python=3.10 -y
+-conda activate analyst_env
 # Install dependencies
-pip install -r requirements.txt
+-pip install -r requirements.txt
+# Run App
+-streamlit run app.py
 ```
 --- 
 ## 👤 Author
