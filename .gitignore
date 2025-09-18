@@ -50,5 +50,4 @@ ENV/
 *.swp
 
 # Exported images/reports
-images/*.png
 *.pdf
