@@ -1,0 +1,54 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+
+# Logs
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# Uploaded datasets & chat history (keep folder, ignore contents)
+uploads/*
+chat_history/*
+memory/*
+vectorstore/*
+
+# But allow folder structure to exist
+!uploads/.gitkeep
+!chat_history/.gitkeep
+!memory/.gitkeep
+!vectorstore/.gitkeep
+
+# SQLite database (vectorstore)
+*.sqlite3
+
+# JSON caches
+*.json
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE configs
+.vscode/
+.idea/
+*.swp
+
+# Exported images/reports
+images/*.png
+*.pdf
