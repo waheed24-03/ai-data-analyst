@@ -79,6 +79,11 @@ This is **not a toy demo** — it’s a **feature-rich prototype approaching pro
 - **Frontend** → Streamlit  
 - **LLM Framework** → LangChain  
 - **Local LLM** → Ollama  
+- **Data Handling** → Pandas, NumPy  
+- **Visualization** → Matplotlib  
+- **Storage** → ChromaDB (vectorstore)  
+- **Export** → PDFKit + wkhtmltopdf   
+---
 
 
 ## ⚙️ Installation
