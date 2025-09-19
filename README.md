@@ -74,7 +74,11 @@ This is **not a toy demo** — it’s a **feature-rich prototype approaching pro
 ![Summary](images/image9.png)
 
 ---
+## 🛠️ Tech Stack
 
+- **Frontend** → Streamlit  
+- **LLM Framework** → LangChain  
+- **Local LLM** → Ollama  
 
 
 ## ⚙️ Installation
