@@ -69,7 +69,7 @@ This is **not a toy demo** — it’s a **feature-rich prototype approaching pro
 > ![Profile Report](images/image7.png)
 
 ### 7️⃣ Report
-![Report](images/image8.png)
+> ![Report](images/image8.png)
 
 ### 8️⃣ Summary
 ![Summary](images/image9.png)
