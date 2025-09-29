@@ -54,7 +54,7 @@ This is **not a toy demo** — it’s a **feature-rich prototype approaching pro
 > ![Upload](images/image1.png)
 
 ### 2️⃣ Chat with Data
-![Chat](images/image2.png)
+> ![Chat](images/image2.png)
 
 ### 3️⃣ Automated Analysis
 ![Analysis](images/image3.png)
