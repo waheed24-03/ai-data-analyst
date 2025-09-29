@@ -1,4 +1,5 @@
 # 🤖 AI Data Analyst Agent  
+---
 
 > An AI-powered data analysis platform that lets you **chat with your dataset**, generate insights, build visualizations, and export professional reports — all via natural language.  
 
