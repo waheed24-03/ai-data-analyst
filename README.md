@@ -100,6 +100,11 @@ pip install -r requirements.txt
 # Run App
 streamlit run app.py
 ```
+--- 
+## 👤 Author
+-  Syed Abdul Waheed
+
+
 
 
 
