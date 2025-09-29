@@ -72,7 +72,7 @@ This is **not a toy demo** — it’s a **feature-rich prototype approaching pro
 > ![Report](images/image8.png)
 
 ### 8️⃣ Summary
-![Summary](images/image9.png)
+> ![Summary](images/image9.png)
 
 ---
 ## 🛠️ Tech Stack
