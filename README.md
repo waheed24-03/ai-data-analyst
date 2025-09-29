@@ -63,7 +63,7 @@ This is **not a toy demo** — it’s a **feature-rich prototype approaching pro
 > ![Visuals](images/image4.png)
 
 ### 5️⃣ Graph
-![Graph](images/image5.png)
+> ![Graph](images/image5.png)
 
 ### 6️⃣ Profiling Report
 ![Profile Report](images/image7.png)
