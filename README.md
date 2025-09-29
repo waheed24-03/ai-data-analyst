@@ -60,7 +60,7 @@ This is **not a toy demo** — it’s a **feature-rich prototype approaching pro
 > ![Analysis](images/image3.png)
 
 ### 4️⃣ Visualizations
-![Visuals](images/image4.png)
+> ![Visuals](images/image4.png)
 
 ### 5️⃣ Graph
 ![Graph](images/image5.png)
