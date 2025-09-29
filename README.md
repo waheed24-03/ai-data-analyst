@@ -1,5 +1,5 @@
 # 🤖 AI Data Analyst Agent  
----
+
 
 > An AI-powered data analysis platform that lets you **chat with your dataset**, generate insights, build visualizations, and export professional reports — all via natural language.  
 
@@ -51,7 +51,7 @@ This is **not a toy demo** — it’s a **feature-rich prototype approaching pro
 ## 🖼️ Walkthrough
 
 ### 1️⃣ Upload Dataset
-![Upload](images/image1.png)
+> ![Upload](images/image1.png)
 
 ### 2️⃣ Chat with Data
 ![Chat](images/image2.png)
