@@ -1,115 +1,139 @@
-# 🤖 AI Data Analyst Agent  
+<div align="center">
 
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=260&section=header&text=AI%20Data%20Analyst%20Agent&fontSize=80&animation=fadeIn&fontAlignY=38&desc=GenAI%20•%20Automated%20Insights%20•%20Local%20Inference&descAlignY=55&descAlign=50" alt="AI Data Analyst Header" />
 
-> An AI-powered data analysis platform that lets you **chat with your dataset**, generate insights, build visualizations, and export professional reports — all via natural language.  
+  <br />
+
+  <p>
+    <img src="https://img.shields.io/badge/LangChain-Integration-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
+    <img src="https://img.shields.io/badge/Streamlit-UI_Framework-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+    <img src="https://img.shields.io/badge/Ollama-Local_LLM-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
+    <img src="https://img.shields.io/badge/ChromaDB-Vector_Store-FF6F00?style=for-the-badge" alt="ChromaDB" />
+  </p>
+
+  <h3>🤖 Your Personal Data Scientist, Powered by LLMs</h3>
+  
+  <p align="center">
+    <i>"A conversational intelligence platform that allows you to chat with your dataset, generate visualizations on the fly, and export professional reports."</i>
+  </p>
+</div>
 
 ---
 
-## 🏗️ System Architecture  
+## 🏗️ System Architecture
 
-![Architecture](images/architecture_diagram.png)
+The system follows a robust **modular design**, ensuring maintainability and scalability for real-world data tasks.
 
-The system follows a **modular design**, ensuring maintainability and scalability:
+<div align="center">
+  <img src="images/architecture_diagram.png" alt="System Architecture" width="800" style="border-radius: 10px; border: 1px solid #ddd;" />
+</div>
 
-- **Streamlit App** → User interface for dataset upload, chat, and visualization.  
-- **LLM Client (LangChain + Ollama)** → Translates natural language into Python code.  
-- **Executor** → Safely executes AI-generated code on the dataset.  
-- **Visuals & Export Utils** → Creates plots, PDFs, and CSV outputs.  
-- **Knowledge Layer** → RAG (vectorstore) + Web Search fallback for context-aware answers.  
-- **Persistence & Memory** → Chat history, schema caching, and logging.  
+<br />
+
+| Module | Functionality |
+| :--- | :--- |
+| **Streamlit App** | Interactive UI for upload, chat, and visualization. |
+| **LLM Engine** | **LangChain + Ollama** translates natural language into Python analysis code. |
+| **Executor** | Safely executes generated code on the dataframe. |
+| **Knowledge Layer** | **RAG (ChromaDB)** + Web Search fallback for context-aware answers. |
+| **Persistence** | Manages Chat history, schema caching, and session memory. |
 
 ---
 
 ## 🚀 Why This Project?
 
-Data analysis is often slow and manual. Our **AI Agent** streamlines the process by combining **Streamlit, LangChain, and local LLMs** into a single interactive platform where you can:  
+Data analysis is often manual, repetitive, and requires coding skills. This **AI Agent** bridges the gap by combining **Local LLMs and Python** into a single workflow.
 
-- 📂 Upload a CSV dataset  
-- 💬 Ask natural language questions  
-- 📊 Get automated analysis, visualizations, and summaries  
-- 📑 Export results into **PDF/CSV/plots**  
-
-This is **not a toy demo** — it’s a **feature-rich prototype approaching production quality**.  
+* **Privacy First:** Runs locally using Ollama (no data leaves your machine).
+* **Not a Toy:** Handles CSVs up to **100MB**, includes error handling, and structured logging.
+* **End-to-End:** From raw data upload to a downloadable PDF report.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- 📂 **CSV Uploads up to 100MB**  
-- 💬 **Natural Language Q&A** on datasets  
-- 📊 **Automatic Visualizations** (matplotlib)  
-- 📝 **Summarization & Insights** (RAG + LLMs)  
-- 🧹 **Data Cleaning UI** for consistency  
-- 💾 **Export Options** → CSV, Plots, PDF reports  
-- ⚡ **Caching** → Faster repeated queries  
-- 🧠 **Persistent Chat Memory** per dataset  
-- 🔎 **Web Search Fallback** for missing context  
-- 📑 **Structured Logging** (`app.log`, `analysis.log`)  
+- 📂 **Smart Ingestion**: Upload large CSV files (up to 100MB) with auto-schema detection.
+- 💬 **Natural Language Querying**: Ask "What is the sales trend?" and get a coded answer.
+- 📊 **Auto-Visualization**: Generates Matplotlib/Seaborn charts automatically based on queries.
+- 📝 **RAG-Powered Insights**: Uses Vector Search to find semantic context within text columns.
+- 💾 **Professional Exports**: Download analysis as **CSV**, **Plots**, or **PDF Reports**.
+- ⚡ **Performance**: Implements **Caching** for repeated queries and persistent chat memory.
+- 🔎 **Web Aware**: Fallback to Web Search if the dataset lacks specific context.
 
 ---
 
-## 🖼️ Walkthrough
+## 🖼️ Visual Walkthrough
 
-### 1️⃣ Upload Dataset
-> ![Upload](images/image1.png)
-
-### 2️⃣ Chat with Data
-> ![Chat](images/image2.png)
-
-### 3️⃣ Automated Analysis
-> ![Analysis](images/image3.png)
-
-### 4️⃣ Visualizations
-> ![Visuals](images/image4.png)
-
-### 5️⃣ Graph
-> ![Graph](images/image5.png)
-
-### 6️⃣ Profiling Report
-> ![Profile Report](images/image7.png)
-
-### 7️⃣ Report
-> ![Report](images/image8.png)
-
-### 8️⃣ Summary
-> ![Summary](images/image9.png)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>1️⃣ Upload Dataset</b></td>
+      <td align="center"><b>2️⃣ Chat with Data</b></td>
+    </tr>
+    <tr>
+      <td><img src="images/image1.png" width="400" /></td>
+      <td><img src="images/image2.png" width="400" /></td>
+    </tr>
+    <tr>
+      <td align="center"><b>3️⃣ Automated Analysis</b></td>
+      <td align="center"><b>4️⃣ Visualizations</b></td>
+    </tr>
+    <tr>
+      <td><img src="images/image3.png" width="400" /></td>
+      <td><img src="images/image4.png" width="400" /></td>
+    </tr>
+    <tr>
+      <td align="center"><b>5️⃣ Graph Generation</b></td>
+      <td align="center"><b>6️⃣ Profiling Report</b></td>
+    </tr>
+    <tr>
+      <td><img src="images/image5.png" width="400" /></td>
+      <td><img src="images/image7.png" width="400" /></td>
+    </tr>
+     <tr>
+      <td align="center"><b>7️⃣ Report Export</b></td>
+      <td align="center"><b>8️⃣ Summary</b></td>
+    </tr>
+    <tr>
+      <td><img src="images/image8.png" width="400" /></td>
+      <td><img src="images/image9.png" width="400" /></td>
+    </tr>
+  </table>
+</div>
 
 ---
-## 🛠️ Tech Stack
 
-- **Frontend** → Streamlit  
-- **LLM Framework** → LangChain  
-- **Local LLM** → Ollama  
-- **Data Handling** → Pandas, NumPy  
-- **Visualization** → Matplotlib  
-- **Storage** → ChromaDB (vectorstore)  
-- **Export** → PDFKit + wkhtmltopdf   
+## 🛠️ Technology Stack
+
+| Component | Technology | Role |
+| :--- | :--- | :--- |
+| **Frontend** | ![Streamlit](https://img.shields.io/badge/-Streamlit-black?style=flat-square&logo=streamlit) | User Interface |
+| **Orchestration** | ![LangChain](https://img.shields.io/badge/-LangChain-black?style=flat-square&logo=langchain) | LLM Chains & Agents |
+| **Inference** | ![Ollama](https://img.shields.io/badge/-Ollama-black?style=flat-square&logo=ollama) | Local LLM Runner |
+| **Data Ops** | ![Pandas](https://img.shields.io/badge/-Pandas-black?style=flat-square&logo=pandas) | Data Manipulation |
+| **Vector Store** | ![ChromaDB](https://img.shields.io/badge/-ChromaDB-black?style=flat-square) | RAG / Semantic Search |
+| **Reporting** | `PDFKit`, `wkhtmltopdf` | PDF Generation |
+
 ---
 
-
-## ⚙️ Installation
+## ⚙️ Installation & Setup
 
 ```bash
-# Clone repository
-git clone https://github.com/your-username/ai-data-analyst-agent.git
+# 1. Clone the repository
+git clone [https://github.com/Syed-Waheed/ai-data-analyst-agent.git](https://github.com/Syed-Waheed/ai-data-analyst-agent.git)
 cd ai-data-analyst-agent
-# Create environment
+
+# 2. Create a virtual environment (Recommended)
 conda create -n analyst_env python=3.10 -y
 conda activate analyst_env
-# Install dependencies
+
+# 3. Install dependencies
 pip install -r requirements.txt
-# Run App
+
+# 4. Ensure Ollama is running locally
+ollama serve
+
+# 5. Run the Application
 streamlit run app.py
+
 ```
---- 
-## 👤 Author
--  Syed Abdul Waheed
--  Data Science Enthusiast | Python Developer | Automation Explorer
-- 📬 Connect: LinkedIn (https://www.linkedin.com/in/syed-abdul-waheed/)
-- 🐙 GitHub: waheed24-03
----
-
-
-
-
-
