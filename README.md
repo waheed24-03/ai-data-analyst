@@ -1,5 +1,5 @@
 
-
+<div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=260&section=header&text=AI%20Data%20Analyst%20Agent&fontSize=80&animation=fadeIn&fontAlignY=38&desc=GenAI%20•%20Automated%20Insights%20•%20Local%20Inference&descAlignY=55&descAlign=50" alt="AI Data Analyst Header" />
 
   <br />
